@@ -12,7 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="static/css/nav.css">
 
-    <link rel="stylesheet" href="static/css/login.css">
+    <link rel="stylesheet" href="static/css/register.css">
     <link rel="stylesheet" href="static/css/footer.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -80,28 +80,31 @@
     <!-- ---------------nav bar ends here---------------- -->
     <!-- -------------------------- main container starts here------------------------ -->
     <div class="container">
-        <div class="left-container">
-            <h1>Register to<br>
-                Be in Tough
-            </h1>
-            <p>
-                Already a member?<br><br>
-                You can <a href="./login.html">Login Here</a>
-            </p>
-            <div class="image">
-                <img src="./static/image/icecream.png" alt="">
+        <div class="inner-container">
+            <div class="left-container">
+                <div class="content">
+                <h2>Create your Account</h2>
+                <form action="">
+                <div class="name">
+                <input type="text" placeholder="First Name" required class="first-name">
+                <input type="text" placeholder="Last Name" class="last-name">
             </div>
-        </div>
-        <!-- left-container ends here  -->
-
-        <!-- right-container start  -->
-        <div class="right-container">
-            <form action="">
-            <abbr title="Please Enter Your Email Here"><input type="email" placeholder="Enter email" required></abbr>
-            <abbr title="Please Enter Your Password Here"><input type="password" placeholder="Password" required></abbr>
-            <abbr title="Please Confirm Your Password"><input type="password" placeholder="Confirm Password" required></abbr>
-            <button type="submit">Sign Up</button>
-        </form>
+                <input type="email" placeholder="Email" class="email" required>
+                <input type="text" placeholder="Username" class="email" required>
+                <p>You Can Use Letters, numbers and periods</p>
+                <div class="password">
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" class="confirm-password" required>
+                 <p>Use at least 8 characters</p>
+            </div>
+                <a href="#">Sign in Instead</a>
+                <button type="submit">Sign Up</button>
+            </form>
+            </div>
+            </div>
+            <div class="right-container">
+                <img src="./static/image/signup.png" alt="">
+            </div>
         </div>
     </div>
      <!-- -----------------------------main container ends here----------------------------  -->
